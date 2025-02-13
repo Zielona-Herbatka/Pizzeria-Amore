@@ -273,7 +273,7 @@ section {
 			font-size: 2.4rem;
 		}
 		&-description {
-			font-size: 1.6rem;
+			font-size: 1.8rem;
 		}
 	}
 }
@@ -291,7 +291,7 @@ section {
 		}
 		&-description {
 			margin: 2rem 0;
-			font-size: 1.6rem;
+			font-size: 1.8rem;
 			line-height: 1.5;
 			&--color {
 				font-weight: bold;
@@ -335,9 +335,6 @@ section {
 		font-size: 4rem;
 	}
 	.header__text,
-	.menu__item-title,
-	.promotion__item-description,
-	.about-us__item-description,
 	.contact__form,
 	.contact__button {
 		font-size: 2rem;
@@ -346,11 +343,7 @@ section {
 		font-size: 4.8rem;
 	}
 	.menu__item-text {
-		font-size: 1.8rem;
-	}
-
-	.promotion__item-title {
-		font-size: 2.8rem;
+		font-size: 1.6rem;
 	}
 
 	.contact__input,

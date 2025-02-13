@@ -197,23 +197,17 @@ section {
 				background-color: colors.$main-color;
 			}
 		}
-		&-input {
-			display: block;
-			margin-top: 1rem;
-			padding: 1rem;
-			width: 100%;
-			border-radius: 1rem;
-			border: 2px solid colors.$main-color;
-		}
 	}
-
 	&__box {
-		display: flex;
+		display: none;
 		justify-content: center;
 		flex-wrap: wrap;
 		margin: 1rem auto;
 		max-width: 1040px;
 		gap: 2rem;
+		&--active {
+			display: flex;
+		}
 	}
 	&__item {
 		max-width: 320px;

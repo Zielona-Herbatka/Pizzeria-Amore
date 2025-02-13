@@ -52,22 +52,17 @@
 		<section class="menu" id="menu">
 			<div class="menu__category">
 				<div class="menu__category-box">
-					<button class="menu__category-item menu__category-item--active">Neapolitańska</button>
-					<button class="menu__category-item">Rzymska</button>
-					<button class="menu__category-item">Sycylijska</button>
-					<button class="menu__category-item">Calzone</button>
+					<button class="menu__category-item neapol-button menu__category-item--active">Neapolitańska</button>
+					<button class="menu__category-item rome-button">Rzymska</button>
+					<button class="menu__category-item sicily-button">Sycylijska</button>
 				</div>
-				<input class="menu__category-input" type="text" name="" id="" placeholder="Wyszukaj po nazwie" />
 			</div>
-			<!-- ?form -->
-			<!-- ?form -->
-			<div class="menu__box">
-				<!-- !wszystkie zdjecia na stronie pobrac w malej rozdzielczosci i potem zwiekszac wraz z media queries -->
+			<div class="menu__box menu__box-neapol menu__box--active">
 				<div class="menu__item">
-					<img src="img/Menu/Margherita-mini.jpg" alt="Pizza Margherita" class="menu__item-img" />
+					<img src="img/Menu/Neapol/Margherita.jpg" alt="Pizza Margherita" class="menu__item-img" />
 					<div class="menu__item-text">
 						<p class="menu__item-title">Margherita</p>
-						<p class="menu__item-ingredients">sos pomidorowy, mozzarella, bazylia</p>
+						<p class="menu__item-ingredients">Sos pomidorowy, mozzarella di bufala, bazylia</p>
 						<div class="menu__item-price-box">
 							<p class="menu__item-price">25cm/20zł</p>
 							<p class="menu__item-price">30cm/25zł</p>
@@ -76,10 +71,10 @@
 					</div>
 				</div>
 				<div class="menu__item">
-					<img src="img/Menu/Capricciosa-mini.jpg" alt="Pizza Capricciosa" class="menu__item-img" />
+					<img src="img/Menu/Neapol/Marinara.jpg" alt="Pizza Marinara" class="menu__item-img" />
 					<div class="menu__item-text">
-						<p class="menu__item-title">Capricciosa</p>
-						<p class="menu__item-ingredients">sos pomidorowy, mozzarella, szynka, pieczarki, oliwki, cebula</p>
+						<p class="menu__item-title">Marinara</p>
+						<p class="menu__item-ingredients">Sos pomidorowy, salami, czosnek, oregano, oliwa</p>
 						<div class="menu__item-price-box">
 							<p class="menu__item-price">25cm/20zł</p>
 							<p class="menu__item-price">30cm/25zł</p>
@@ -88,10 +83,10 @@
 					</div>
 				</div>
 				<div class="menu__item">
-					<img src="img/Menu/Funghi-mini.jpg" alt="Pizza Funghi" class="menu__item-img" />
+					<img src="img/Menu/Neapol/Caprese.jpg" alt="Pizza Caprese" class="menu__item-img" />
 					<div class="menu__item-text">
-						<p class="menu__item-title">Funghi</p>
-						<p class="menu__item-ingredients">sos pomidorowy, mozzarella, pieczarki, oregano</p>
+						<p class="menu__item-title">Caprese</p>
+						<p class="menu__item-ingredients">Pomidory koktajlowe, mozzarella di bufala, bazylia, oliwa</p>
 						<div class="menu__item-price-box">
 							<p class="menu__item-price">25cm/20zł</p>
 							<p class="menu__item-price">30cm/25zł</p>
@@ -100,10 +95,13 @@
 					</div>
 				</div>
 				<div class="menu__item">
-					<img src="img/Menu/Diavola-mini.jpg" alt="Pizza Diavola" class="menu__item-img" />
+					<img
+						src="img/Menu/Neapol/Salsiccia e Friarielli.jpg"
+						alt="Pizza Salsiccia e Friarielli"
+						class="menu__item-img" />
 					<div class="menu__item-text">
-						<p class="menu__item-title">Diavola</p>
-						<p class="menu__item-ingredients">sos pomidorowy, mozzarella, pikantna salami, papryczki chili</p>
+						<p class="menu__item-title">Salsiccia e Friarielli</p>
+						<p class="menu__item-ingredients">Mozzarella, kiełbasa, brokuły neapolitańskie</p>
 						<div class="menu__item-price-box">
 							<p class="menu__item-price">25cm/20zł</p>
 							<p class="menu__item-price">30cm/25zł</p>
@@ -112,11 +110,11 @@
 					</div>
 				</div>
 				<div class="menu__item">
-					<img src="img/Menu/Quattro formaggi-mini.jpg" alt="Pizza Quattro formaggi" class="menu__item-img" />
+					<img src="img/Menu/Neapol/Ripieno.jpg" alt="Pizza Ripieno" class="menu__item-img" />
 					<div class="menu__item-text">
-						<p class="menu__item-title">Quattro formaggi</p>
+						<p class="menu__item-title">Ripieno</p>
 						<p class="menu__item-ingredients">
-							sos pomidorowy, mozzarella, ser gorgonzola, ser pleśniowy, ser parmezan
+							Sos pomidorowy, ricotta, mozzarella fior di latte, salami, parmezan, pieprz
 						</p>
 						<div class="menu__item-price-box">
 							<p class="menu__item-price">25cm/20zł</p>
@@ -126,10 +124,10 @@
 					</div>
 				</div>
 				<div class="menu__item">
-					<img src="img/Menu/Bianca-mini.jpg" alt="Pizza Bianca" class="menu__item-img" />
+					<img src="img/Menu/Neapol/Cosacca.jpg" alt="Pizza Cosacca" class="menu__item-img" />
 					<div class="menu__item-text">
-						<p class="menu__item-title">Bianca</p>
-						<p class="menu__item-ingredients">kremowy sos serowy, ser mozzarella, czosnek, rozmaryn, oliwa z oliwek</p>
+						<p class="menu__item-title">Cosacca</p>
+						<p class="menu__item-ingredients">Sos pomidorowy, pecorino romano, bazylia, oliwa z oliwek</p>
 						<div class="menu__item-price-box">
 							<p class="menu__item-price">25cm/20zł</p>
 							<p class="menu__item-price">30cm/25zł</p>
@@ -137,6 +135,159 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="menu__box menu__box-rome">
+				<div class="menu__item">
+					<img src="img/Menu/Rome/Pizza Romana.jpeg" alt="Pizza Romana" class="menu__item-img" />
+					<div class="menu__item-text">
+						<p class="menu__item-title">Pizza Romana</p>
+						<p class="menu__item-ingredients">Sos pomidorowy, anchois, kapary, oregano, mozzarella.</p>
+						<div class="menu__item-price-box">
+							<p class="menu__item-price">25cm/20zł</p>
+							<p class="menu__item-price">30cm/25zł</p>
+							<p class="menu__item-price">40cm/30zł</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu__item">
+					<img src="img/Menu/Rome/Pizza Capricciosa.jpeg" alt="Pizza Capricciosa" class="menu__item-img" />
+					<div class="menu__item-text">
+						<p class="menu__item-title">Pizza Capricciosa</p>
+						<p class="menu__item-ingredients">Sos pomidorowy, szynka, pieczarki, karczochy, oliwki, mozzarella.</p>
+						<div class="menu__item-price-box">
+							<p class="menu__item-price">25cm/20zł</p>
+							<p class="menu__item-price">30cm/25zł</p>
+							<p class="menu__item-price">40cm/30zł</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu__item">
+					<img src="img/Menu/Rome/Pizza alla Carbonara.jpeg" alt="Pizza alla Carbonara" class="menu__item-img" />
+					<div class="menu__item-text">
+						<p class="menu__item-title">Pizza alla Carbonara</p>
+						<p class="menu__item-ingredients">Jajko, guanciale, pecorino romano, pieprz.</p>
+						<div class="menu__item-price-box">
+							<p class="menu__item-price">25cm/20zł</p>
+							<p class="menu__item-price">30cm/25zł</p>
+							<p class="menu__item-price">40cm/30zł</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu__item">
+					<img src="img/Menu/Rome/Pizza Bianca.jpeg" alt="Pizza Bianca" class="menu__item-img" />
+					<div class="menu__item-text">
+						<p class="menu__item-title">Pizza Bianca</p>
+						<p class="menu__item-ingredients">Bez sosu, oliwa, sól, czasem z rozmarynem.</p>
+						<div class="menu__item-price-box">
+							<p class="menu__item-price">25cm/20zł</p>
+							<p class="menu__item-price">30cm/25zł</p>
+							<p class="menu__item-price">40cm/30zł</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu__item">
+					<img src="img/Menu/Rome/Pizza Funghi e Prosciutto.jpeg" alt="Pizza Quattro formaggi" class="menu__item-img" />
+					<div class="menu__item-text">
+						<p class="menu__item-title">Pizza Funghi e Prosciutto</p>
+						<p class="menu__item-ingredients">Mozzarella, pieczarki, szynkam oliwa, bazylia.</p>
+						<div class="menu__item-price-box">
+							<p class="menu__item-price">25cm/20zł</p>
+							<p class="menu__item-price">30cm/25zł</p>
+							<p class="menu__item-price">40cm/30zł</p>
+						</div>
+					</div>
+				</div>
+				<div class="menu__item">
+					<img
+						src="img/Menu/Rome/Pizza Patate e Rosmarino.jpeg"
+						alt="Pizza Patate e Rosmarino"
+						class="menu__item-img" />
+					<div class="menu__item-text">
+						<p class="menu__item-title">Pizza Patate e Rosmarino</p>
+						<p class="menu__item-ingredients">Cienkie plasterki ziemniaków, rozmaryn, oliwa.</p>
+						<div class="menu__item-price-box">
+							<p class="menu__item-price">25cm/20zł</p>
+							<p class="menu__item-price">30cm/25zł</p>
+							<p class="menu__item-price">40cm/30zł</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu__box menu__box-sicily">
+			<div class="menu__item">
+				<img src="img/Menu/Sycilic/Pizza Sfincione.jpeg" alt="Pizza Sfincione" class="menu__item-img" />
+				<div class="menu__item-text">
+					<p class="menu__item-title">Sfincione</p>
+					<p class="menu__item-ingredients">
+						Grube ciasto, sos pomidorowy, cebula, anchois, bułka tarta, ser caciocavallo.
+					</p>
+					<div class="menu__item-price-box">
+						<p class="menu__item-price">25cm/20zł</p>
+						<p class="menu__item-price">30cm/25zł</p>
+						<p class="menu__item-price">40cm/30zł</p>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<img src="img/Menu/Sycilic/Pizza Siciliana.jpeg" alt="Pizza Siciliana" class="menu__item-img" />
+				<div class="menu__item-text">
+					<p class="menu__item-title">Siciliana</p>
+					<p class="menu__item-ingredients">Sos pomidorowy, anchois, czarne oliwki, kapary, oregano.</p>
+					<div class="menu__item-price-box">
+						<p class="menu__item-price">25cm/20zł</p>
+						<p class="menu__item-price">30cm/25zł</p>
+						<p class="menu__item-price">40cm/30zł</p>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<img src="img/Menu/Sycilic/Pizza Messinese.jpeg" alt="Pizza Messinese" class="menu__item-img" />
+				<div class="menu__item-text">
+					<p class="menu__item-title">Messinese</p>
+					<p class="menu__item-ingredients">Sos pomidorowy, mozzarella, suszone pomidory, oliwki, kapary.</p>
+					<div class="menu__item-price-box">
+						<p class="menu__item-price">25cm/20zł</p>
+						<p class="menu__item-price">30cm/25zł</p>
+						<p class="menu__item-price">40cm/30zł</p>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<img src="img/Menu/Sycilic/Pizza Catanese.jpeg" alt="Pizza Catanese" class="menu__item-img" />
+				<div class="menu__item-text">
+					<p class="menu__item-title">Catanese</p>
+					<p class="menu__item-ingredients">Sos pomidorowy, mozzarella, filety anchois, oliwki.</p>
+					<div class="menu__item-price-box">
+						<p class="menu__item-price">25cm/20zł</p>
+						<p class="menu__item-price">30cm/25zł</p>
+						<p class="menu__item-price">40cm/30zł</p>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<img src="img/Menu/Sycilic/Pizza alla Norma.jpeg" alt="Pizza alla Norma" class="menu__item-img" />
+				<div class="menu__item-text">
+					<p class="menu__item-title">Alla Norma</p>
+					<p class="menu__item-ingredients">Sos pomidorowy, smażone bakłażany, ricotta salata, bazylia.</p>
+					<div class="menu__item-price-box">
+						<p class="menu__item-price">25cm/20zł</p>
+						<p class="menu__item-price">30cm/25zł</p>
+						<p class="menu__item-price">40cm/30zł</p>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<img src="img/Menu/Sycilic/Pizza Rianata.jpeg" alt="Pizza Rianata" class="menu__item-img" />
+				<div class="menu__item-text">
+					<p class="menu__item-title">Rianata</p>
+					<p class="menu__item-ingredients">Sos pomidorowy, oregano, czosnek, sardynki, oliwki.</p>
+					<div class="menu__item-price-box">
+						<p class="menu__item-price">25cm/20zł</p>
+						<p class="menu__item-price">30cm/25zł</p>
+						<p class="menu__item-price">40cm/30zł</p>
+					</div>
+				</div>
+			</div>
 			</div>
 		</section>
 		<h2 class="section-title">Promocje</h2>
@@ -171,13 +322,13 @@
 						Dodajemy darmowe dodatki do zamówień powyżej określonej wartości, na przykład darmowe napoje lub przekąski.
 					</p>
 				</div>
+				</div>
 			</div>
 		</section>
 		<h2 class="section-title">O nas</h2>
 		<section class="about-us" id="about-us">
 			<div class="about-us__item">
-				<!-- !znaleźć te zdjecia w małej rozdzielczosci i dodac alty -->
-				<img src="img/about us/aboutus1.jpg" alt="" class="about-us__item-img" />
+				<img src="img/about us/aboutus1.jpg" alt="Pizza z kawałkami boczku, pieczarkami i świeżymi ziołami, leżąca na ladzie w pizzerii. W tle widać kucharzy przygotowujących kolejne potrawy." class="about-us__item-img" />
 				<p class="about-us__item-description">
 					W naszej pizzerii pracują ludzie z prawdziwą pasją do pizzy. To dzięki ich zaangażowaniu i umiejętnościom
 					nasze dania smakują naprawdę wyjątkowo.
@@ -188,7 +339,7 @@
 				</p>
 			</div>
 			<div class="about-us__item">
-				<img src="img/about us/aboutus2.jpg" alt="" class="about-us__item-img" />
+				<img src="img/about us/aboutus2.jpg" alt="Widok z góry na okrągłą pizzę leżącą na drewnianej desce, wokół której widać trzy dłonie trzymające smartfony, robiące jej zdjęcia. W tle szara powierzchnia stołu." class="about-us__item-img" />
 				<p class="about-us__item-description">
 					Nasze pizzeria to miejsce, gdzie świetnie spędza się czas ze znajomymi! Nie ma nic lepszego niż delektowanie
 					się kawałkiem pysznej pizzy z przyjaciółmi przy akompaniamencie śmiechu i rozmów.
@@ -199,7 +350,7 @@
 				</p>
 			</div>
 			<div class="about-us__item">
-				<img src="img/about us/aboutus3.jpg" alt="" class="about-us__item-img" />
+				<img src="img/about us/aboutus3.jpg" alt="Widok z góry na pokrojoną pizzę leżącą na okrągłej, drewnianej desce, przyozdobioną zielonymi liśćmi (rukolą lub szpinakiem) i porcjami kremowego sera." class="about-us__item-img" />
 				<p class="about-us__item-description">
 					W naszej pizzerii oferujemy szeroki wybór dań, który zadowoli każdego smakosza. Nasze menu obejmuje różnorodne
 					rodzaje pizzy, od tradycyjnych włoskich smaków po nieco bardziej egzotyczne połączenia.

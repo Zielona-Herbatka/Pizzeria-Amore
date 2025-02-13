@@ -194,21 +194,16 @@ section {
   color: white;
   background-color: #83c5be;
 }
-.menu__category-input {
-  display: block;
-  margin-top: 1rem;
-  padding: 1rem;
-  width: 100%;
-  border-radius: 1rem;
-  border: 2px solid #83c5be;
-}
 .menu__box {
-  display: flex;
+  display: none;
   justify-content: center;
   flex-wrap: wrap;
   margin: 1rem auto;
   max-width: 1040px;
   gap: 2rem;
+}
+.menu__box--active {
+  display: flex;
 }
 .menu__item {
   max-width: 320px;

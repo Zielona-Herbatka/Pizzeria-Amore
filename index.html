@@ -16,42 +16,50 @@
 		<nav class="nav">
 			<nav class="nav__bar">
 				<a href="#" class="nav__logo">Amore</a>
+				<div class="nav__desktop">
+					<a class="nav__desktop-item" href="#menu">Menu</a>
+					<a class="nav__desktop-item" href="#promotion">Promocje</a>
+					<a class="nav__desktop-item" href="#about-us">O nas</a>
+					<a class="nav__desktop-item" href="#contact">Kontakt</a>
+				</div>
 				<button class="nav__burger-icon">
 					<span class="nav__burger-icon-item"></span>
 					<span class="nav__burger-icon-item"></span>
 					<span class="nav__burger-icon-item"></span>
 				</button>
+				<ul class="nav__menu-mobile">
+					<li class="nav__menu-mobile-item"><a href="#menu" class="nav__menu-mobile-link">Menu</a></li>
+					<li class="nav__menu-mobile-item"><a href="#promotion" class="nav__menu-mobile-link">Promocje</a></li>
+					<li class="nav__menu-mobile-item"><a href="#about-us" class="nav__menu-mobile-link">O Nas</a></li>
+					<li class="nav__menu-mobile-item"><a href="#contact" class="nav__menu-mobile-link">Kontakt</a></li>
+				</ul>
 			</nav>
-			<ul class="nav__menu">
-				<li class="nav__menu-item"><a href="#menu" class="nav__menu-link">Menu</a></li>
-				<li class="nav__menu-item"><a href="#promotion" class="nav__menu-link">Promocje</a></li>
-				<li class="nav__menu-item"><a href="#about-us" class="nav__menu-link">O Nas</a></li>
-				<li class="nav__menu-item"><a href="#contact" class="nav__menu-link">Kontakt</a></li>
-			</ul>
-			<!-- display block na wyzszej rozdzialce -->
-			<div class="nav__social">
-				<a href="#" class="nav__social-icon"><img src="img/header/facebook.svg" alt="Ikona Facebooka" /></a>
-				<a href="#" class="nav__social-icon"><img src="img/header/instagram.svg" alt="Ikona Instagrama" /></a>
-				<a href="#" class="nav__social-icon"><img src="img/header/pinterest.svg" alt="Ikona Pinteresta" /></a>
-			</div>
 		</nav>
 		<header class="header">
 			<div class="header__text">
-				<h1 class="header__text-heading">Pizzeria Amore Najlepsza włoska pizzeria w twojej okolicy</h1>
+				<h1 class="header__text-heading">Pizzeria Amore <span>Najlepsza włoska pizzeria w twojej okolicy</span></h1>
 				<p class="header__text-location">Kraków ul. Cicha 12</p>
 				<div class="header__text-opening-hours">
 					<p>Pon. Pt. 9:00 - 22:00</p>
 					<p>Sb. Ndz. 10:00 - 24:00</p>
 				</div>
-				<a href="#" class="header__text-btn">Złóż zamówienie</a>
+				<a href="#menu" class="header__text-btn">Złóż zamówienie</a>
 				<p class="header__text-information">Zamówienia przyjmujemy do 30 minut przed zamknięciem</p>
 			</div>
 			<div class="header__shadow"></div>
 		</header>
 		<h2 class="section-title">Menu</h2>
 		<section class="menu" id="menu">
+			<div class="menu__category">
+				<div class="menu__category-box">
+					<button class="menu__category-item menu__category-item--active">Neapolitańska</button>
+					<button class="menu__category-item">Rzymska</button>
+					<button class="menu__category-item">Sycylijska</button>
+					<button class="menu__category-item">Calzone</button>
+				</div>
+				<input class="menu__category-input" type="text" name="" id="" placeholder="Wyszukaj po nazwie" />
+			</div>
 			<!-- ?form -->
-			<input class="menu__search-bar-input" type="text" name="" id="" placeholder="Wyszukaj po nazwie" />
 			<!-- ?form -->
 			<div class="menu__box">
 				<!-- !wszystkie zdjecia na stronie pobrac w malej rozdzielczosci i potem zwiekszac wraz z media queries -->

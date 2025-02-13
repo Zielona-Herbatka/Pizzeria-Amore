@@ -1,16 +1,17 @@
 const header = document.querySelector('.header')
 
-const navMenu = document.querySelector('.nav__menu')
 const nav = document.querySelector('.nav')
+const burger = document.querySelector('.nav__menu-mobile')
 
 const burgerIcon = document.querySelector('.nav__burger-icon')
-const navMenuItems = document.querySelectorAll('.nav__menu-item')
+const burgerItems = document.querySelectorAll('.nav__menu-mobile-item')
 
+const menuCategoryItems = document.querySelectorAll('.menu__category-item')
 const menuSearchBar = document.querySelector('.menu__search-bar-input')
 const manuItemsTitle = document.querySelectorAll('.menu__item-title')
 
-const showNav = () => {
-	navMenu.classList.toggle('showNav')
+const blockScroll = () => {
+	burger.classList.toggle('showNav')
 
 	if (document.body.style.overflow === '') {
 		document.body.style.overflow = 'hidden'
@@ -27,6 +28,11 @@ const showNavBar = () => {
 	}
 }
 
+const menuCategory = e => {
+	menuCategoryItems.forEach(el => el.classList.remove('menu__category-item--active'))
+	e.target.classList.toggle('menu__category-item--active')
+}
+
 const menuSearch = () => {
 	manuItemsTitle.forEach(el => {
 		const parentBox = el.closest('.menu__item')
@@ -39,7 +45,8 @@ const menuSearch = () => {
 	})
 }
 
+menuCategoryItems.forEach(el => el.addEventListener('click', menuCategory))
 window.addEventListener('scroll', showNavBar)
-burgerIcon.addEventListener('click', showNav)
-navMenuItems.forEach(el => el.addEventListener('click', showNav))
+burgerIcon.addEventListener('click', blockScroll)
+burgerItems.forEach(el => el.addEventListener('click', blockScroll))
 menuSearchBar.addEventListener('input', menuSearch)
